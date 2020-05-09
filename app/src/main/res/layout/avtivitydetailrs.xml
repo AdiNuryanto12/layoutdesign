@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="290dp"
+        android:layout_height="217dp"
+        app:srcCompat="@drawable/rs"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="277dp"
+        android:layout_height="46dp"
+        android:text="RS.ADAM THALIB"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="270dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="290dp"
+        android:layout_height="170dp"
+        android:text="Jl. Teuku Umar No 25 Cikarang Bekasi, Jawa Barat, Indonesia 17530. Phone: (021) 88332305, (021) 88332306. Fax: (021) 88332308."
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="336dp" />
+</android.support.constraint.ConstraintLayout>
